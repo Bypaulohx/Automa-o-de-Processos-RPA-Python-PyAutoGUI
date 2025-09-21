@@ -1,0 +1,36 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run: calibrate",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/main.py",
+      "args": [
+        "calibrate"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run: dry-run",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/main.py",
+      "args": [
+        "run",
+        "--dry-run"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run: mass fill",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/main.py",
+      "args": [
+        "run"
+      ],
+      "console": "integratedTerminal"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Formulário de Exemplo - RPA PyAutoGUI</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif; padding: 2rem; line-height: 1.5; }
+    .card { max-width: 720px; margin: 0 auto; padding: 1.5rem; border: 1px solid #e5e7eb; border-radius: 12px; box-shadow: 0 2px 16px rgba(0,0,0,0.06); }
+    label { display: block; margin-top: 1rem; font-weight: 600; }
+    input, textarea { width: 100%; padding: .75rem; border-radius: 8px; border: 1px solid #cbd5e1; font-size: 16px; }
+    button { margin-top: 1.25rem; padding: .8rem 1rem; font-size: 16px; border: 0; border-radius: 10px; background: #2563eb; color: white; cursor: pointer; }
+    button:hover { opacity: .92; }
+    .tip { background: #f1f5f9; border: 1px dashed #94a3b8; padding: .75rem; border-radius: 8px; margin-bottom: 1rem; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Formulário de Exemplo</h1>
+    <p class="tip">Use este formulário local para testar o RPA. Ajuste o zoom do navegador para 100% e não mova a janela durante os testes.</p>
+    <form onsubmit="event.preventDefault(); alert('Enviado!');">
+      <label for="full_name">Nome completo</label>
+      <input id="full_name" name="full_name" autocomplete="off" />
+      <label for="email">E-mail</label>
+      <input id="email" name="email" autocomplete="off" />
+      <label for="phone">Telefone</label>
+      <input id="phone" name="phone" autocomplete="off" />
+      <label for="address">Endereço</label>
+      <input id="address" name="address" autocomplete="off" />
+      <label for="notes">Observações</label>
+      <textarea id="notes" name="notes" rows="4"></textarea>
+      <button id="submit" type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>

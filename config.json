@@ -1,0 +1,44 @@
+{
+  "fields": [
+    {
+      "name": "full_name",
+      "type": "text",
+      "description": "Nome completo"
+    },
+    {
+      "name": "email",
+      "type": "text",
+      "description": "E-mail"
+    },
+    {
+      "name": "phone",
+      "type": "text",
+      "description": "Telefone"
+    },
+    {
+      "name": "address",
+      "type": "text",
+      "description": "Endereço"
+    },
+    {
+      "name": "notes",
+      "type": "text",
+      "description": "Observações"
+    },
+    {
+      "name": "submit",
+      "type": "button",
+      "description": "Botão Enviar/Salvar"
+    }
+  ],
+  "delays": {
+    "between_keys": 0.01,
+    "between_fields": 0.4,
+    "after_submit": 1.0
+  },
+  "safety": {
+    "failsafe": true,
+    "pause": 0.2
+  },
+  "log_level": "INFO"
+}
